@@ -18,9 +18,8 @@ function App() {
             <Route
               exact // точный путь
               path='/'
-              component={Home} >
-                <Home /> {/* Ничего не ломается, теперь можно вкладывать children и можем спускать пропы */}
-            </Route>
+              component={Home}
+            />
             <Route
               path='/about'
               component={About}

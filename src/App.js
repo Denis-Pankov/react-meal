@@ -6,6 +6,7 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { Home } from './pages/Home';
 import { Category } from './pages/Category';
+import { Recipe } from './pages/Recipe';
 import { NotFound } from './pages/NotFound';
 
 function App() {
@@ -29,8 +30,12 @@ function App() {
               component={Contact}
             />
             <Route
-              path='/category/:name' // здесь компонент будет один, но будет меняться id, т.е. то что указано после :
+              path='/category/:name'
               component={Category}
+            />
+            <Route
+              path='/meal/:id'
+              component={Recipe}
             />
             <Route component={NotFound} />
           </Switch>

@@ -18,7 +18,7 @@ function App() {
           <Switch>
             <Route
               exact
-              path='/react-meal'
+              path='/'
             >
               <Home />
             </Route>

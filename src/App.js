@@ -19,8 +19,9 @@ function App() {
             <Route
               exact
               path='/'
-              component={Home}
-            />
+            >
+              <Home />
+            </Route>
             <Route
               path='/about'
               component={About}

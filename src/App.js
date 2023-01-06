@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 
@@ -11,8 +11,8 @@ import { Recipe } from './pages/Recipe';
 
 function App() {
   return (
-    <>
-      <Router basename='/react-meal'>
+    <> <div>Проверка работы</div>
+      {/* <Router basename='/react-meal'>
         <Header />
         <main className='container content'>
           <Switch>
@@ -42,7 +42,7 @@ function App() {
           </Switch>
         </main>
         <Footer />
-      </Router>
+      </Router> */}
     </>
   );
 }

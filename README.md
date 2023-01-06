@@ -1,14 +1,16 @@
 # Single page React application.
 
-Использовал OMDP rest API [themealdb.com](https://www.themealdb.com/api.php)
+[Watch result](https://denis-pankov.github.io/react-meal/)
 
-## В проекте использовал библиотеки
+Use OMDP rest API [themealdb.com](https://www.themealdb.com/api.php)
+
+## Used the following libraries in the project
 
 * materialize
 * React
 * React Router
 
-##  В проекте использовал hooks
+##  Used the following hooks in the project
 
 * React -> useState, useEffect
 * React Router -> useLocation, Link, useParams, Router, Route, Switch

@@ -11,8 +11,8 @@ import { Recipe } from './pages/Recipe';
 
 function App() {
   return (
-    <> <div>Проверка работы</div>
-      {/* <Router basename='/react-meal'>
+    <>
+      <Router basename='/react-meal'>
         <Header />
         <main className='container content'>
           <Switch>
@@ -42,7 +42,7 @@ function App() {
           </Switch>
         </main>
         <Footer />
-      </Router> */}
+      </Router>
     </>
   );
 }

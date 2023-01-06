@@ -1,4 +1,4 @@
-# React-приложение.
+#Single page React application.
 
 [Посмотреть итог](https://denis-pankov.github.io/react-meal/)
 
@@ -7,3 +7,9 @@
 ## В проекте использовал библиотеки
 
 * materialize
+
+## Использовал hooks
+
+* React -> useState, useEffect
+* React Router -> useLocation, Link, useParams
+

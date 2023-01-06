@@ -6,12 +6,12 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { Home } from './pages/Home';
 import { Category } from './pages/Category';
-import { Recipe } from './pages/Recipe';
 import { NotFound } from './pages/NotFound';
+import { Recipe } from './pages/Recipe';
 
 function App() {
   return (
-    <div>
+    <>
       <Router basename='/react-meal'>
         <Header />
         <main className='container content'>
@@ -43,7 +43,7 @@ function App() {
         </main>
         <Footer />
       </Router>
-    </div>
+    </>
   );
 }
 

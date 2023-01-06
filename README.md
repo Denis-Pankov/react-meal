@@ -7,9 +7,10 @@
 ## В проекте использовал библиотеки
 
 * materialize
+* React
+* React Router
 
-## Использовал hooks
+##  В проекте использовал hooks
 
 * React -> useState, useEffect
 * React Router -> useLocation, Link, useParams
-

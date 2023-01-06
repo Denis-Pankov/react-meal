@@ -12,7 +12,7 @@ import { NotFound } from './pages/NotFound';
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename='/react-meal'>
         <Header />
         <main className='container content'>
           <Switch>

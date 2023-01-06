@@ -13,4 +13,4 @@
 ##  В проекте использовал hooks
 
 * React -> useState, useEffect
-* React Router -> useLocation, Link, useParams
+* React Router -> useLocation, Link, useParams, Router, Route, Switch
